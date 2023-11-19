@@ -6,8 +6,9 @@ export default function Text() {
     return (
         <>
             <textarea 
+                id={postTextAreaId}
                 rows={95}
-                cols={100}
+                cols={150}
                 />
         </>
     )
