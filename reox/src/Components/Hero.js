@@ -1,8 +1,10 @@
+import './Hero.css'
+
 function Hero() {
     return (
-    <>
-        <h1>Test</h1>
-    </>
+    <div class="body">
+        <h1>Welcome to Reox</h1>
+    </div>
     );
 }
 
