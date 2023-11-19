@@ -38,12 +38,20 @@
 }
 
 .button {
+  font-weight: bolder;
+  margin-right: 5px;
   background-color:#282c34;
   height: 50px;
   width: 100px;
   color: white;
   border: none;
   border-radius: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: left;
+  margin: 5px;
 }
 
 .button:hover {
