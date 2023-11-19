@@ -3,3 +3,11 @@
     margin: 5px 3rem;
     height: 100rem;
 }
+
+.doc {
+    display: flex;
+    align-content: start;
+    text-align: start;
+    height: 100%;
+    width: 100%;
+}
