@@ -1,5 +1,6 @@
 import './Hero.css'
 import { useState } from 'react'
+import Text from './Text'
 
 function Hero() {
     const [val, setVal] = useState("Hello world");
@@ -9,9 +10,9 @@ function Hero() {
     return (
     <div class="body">
         <h1>Welcome to Reox</h1>
-        <input onChange={change} className="doc" value = {val}/>
+        <Text />
     </div>
     );
-}
+};
 
 export default Hero;
